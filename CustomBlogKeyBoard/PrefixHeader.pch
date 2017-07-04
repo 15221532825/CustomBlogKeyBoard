@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  CustomBlogKeyBoard
+//
+//  Created by FeiXiang on 2017/3/21.
+//  Copyright © 2017年 飞翔. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define INSERTNOTIFICATION  @"INSERTNOTIFICATION"
+#define BTNKEY              @"BTNKEY"
+
+#define  DELETENOTIFICTAION @"DELETENOTIFICTAION"
+
+
+#endif /* PrefixHeader_pch */

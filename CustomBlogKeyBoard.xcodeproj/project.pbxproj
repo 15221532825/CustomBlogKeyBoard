@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4452381E7A26980094470E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4452371E7A26980094470E /* main.m */; };
+		0E44523B1E7A26980094470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44523A1E7A26980094470E /* AppDelegate.m */; };
+		0E44523E1E7A26980094470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44523D1E7A26980094470E /* ViewController.m */; };
+		0E4452411E7A26980094470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E44523F1E7A26980094470E /* Main.storyboard */; };
+		0E4452431E7A26980094470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4452421E7A26980094470E /* Assets.xcassets */; };
+		0E4452461E7A26980094470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4452441E7A26980094470E /* LaunchScreen.storyboard */; };
+		0E4452511E7A26980094470E /* CustomBlogKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4452501E7A26980094470E /* CustomBlogKeyBoardTests.m */; };
+		0E44525C1E7A26980094470E /* CustomBlogKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44525B1E7A26980094470E /* CustomBlogKeyBoardUITests.m */; };
+		0E4452731E7A2A4A0094470E /* TitleViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4452721E7A2A4A0094470E /* TitleViewLabel.m */; };
+		0E4452761E7A303C0094470E /* BlogTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4452751E7A303C0094470E /* BlogTextView.m */; };
+		0E45AE391E7BBC8000B4F73F /* CustomEmojView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E45AE381E7BBC8000B4F73F /* CustomEmojView.m */; };
+		0E45AE3C1E7BBF3700B4F73F /* BlogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E45AE3B1E7BBF3700B4F73F /* BlogTool.m */; };
+		0E5F856E1E81202A003F1D8F /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F856D1E81202A003F1D8F /* UITextView+Extension.m */; };
+		0E8D5EEF1E80B0B500302A6C /* KeyboardEmotionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D5EEE1E80B0B500302A6C /* KeyboardEmotionBtn.m */; };
+		0EA85A4E1E7A6A01002E39BE /* ComposeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA85A4D1E7A6A01002E39BE /* ComposeTool.m */; };
+		0EFEB9021E7FAF560058B05C /* EmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB9011E7FAF560058B05C /* EmotionListView.m */; };
+		0EFEB9051E7FAF630058B05C /* SelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB9041E7FAF630058B05C /* SelectedView.m */; };
+		0EFEB9081E7FB26F0058B05C /* EmotionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB9071E7FB26F0058B05C /* EmotionBtn.m */; };
+		0EFEBACE1E7FBF590058B05C /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEBACD1E7FBF590058B05C /* EmotionIcons */; };
+		0EFEBAD11E7FC2BC0058B05C /* EmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAD01E7FC2BC0058B05C /* EmotionModel.m */; };
+		0EFEBAE81E7FC3870058B05C /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAD51E7FC3870058B05C /* MJExtensionConst.m */; };
+		0EFEBAE91E7FC3870058B05C /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAD71E7FC3870058B05C /* MJFoundation.m */; };
+		0EFEBAEA1E7FC3870058B05C /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAD91E7FC3870058B05C /* MJProperty.m */; };
+		0EFEBAEB1E7FC3870058B05C /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBADB1E7FC3870058B05C /* MJPropertyKey.m */; };
+		0EFEBAEC1E7FC3870058B05C /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBADD1E7FC3870058B05C /* MJPropertyType.m */; };
+		0EFEBAED1E7FC3870058B05C /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBADF1E7FC3870058B05C /* NSObject+MJClass.m */; };
+		0EFEBAEE1E7FC3870058B05C /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAE11E7FC3870058B05C /* NSObject+MJCoding.m */; };
+		0EFEBAEF1E7FC3870058B05C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAE31E7FC3870058B05C /* NSObject+MJKeyValue.m */; };
+		0EFEBAF01E7FC3870058B05C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAE51E7FC3870058B05C /* NSObject+MJProperty.m */; };
+		0EFEBAF11E7FC3870058B05C /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAE71E7FC3870058B05C /* NSString+MJExtension.m */; };
+		0EFEBAF41E7FC6470058B05C /* EmotionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAF31E7FC6470058B05C /* EmotionScrollView.m */; };
+		0EFEBAF71E7FD2610058B05C /* EmotionPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAF61E7FD2610058B05C /* EmotionPageView.m */; };
+		0EFEBAFA1E7FD8E90058B05C /* NSString+Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEBAF91E7FD8E90058B05C /* NSString+Code.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E44524D1E7A26980094470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E44522B1E7A26980094470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4452321E7A26980094470E;
+			remoteInfo = CustomBlogKeyBoard;
+		};
+		0E4452581E7A26980094470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E44522B1E7A26980094470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4452321E7A26980094470E;
+			remoteInfo = CustomBlogKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4452331E7A26980094470E /* CustomBlogKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBlogKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4452371E7A26980094470E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E4452391E7A26980094470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		0E44523A1E7A26980094470E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		0E44523C1E7A26980094470E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../ViewController.h; sourceTree = "<group>"; };
+		0E44523D1E7A26980094470E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../ViewController.m; sourceTree = "<group>"; };
+		0E4452401E7A26980094470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E4452421E7A26980094470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E4452451E7A26980094470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E4452471E7A26980094470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E44524C1E7A26980094470E /* CustomBlogKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBlogKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4452501E7A26980094470E /* CustomBlogKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBlogKeyBoardTests.m; sourceTree = "<group>"; };
+		0E4452521E7A26980094470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4452571E7A26980094470E /* CustomBlogKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBlogKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E44525B1E7A26980094470E /* CustomBlogKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBlogKeyBoardUITests.m; sourceTree = "<group>"; };
+		0E44525D1E7A26980094470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4452711E7A2A4A0094470E /* TitleViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewLabel.h; sourceTree = "<group>"; };
+		0E4452721E7A2A4A0094470E /* TitleViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewLabel.m; sourceTree = "<group>"; };
+		0E4452741E7A303C0094470E /* BlogTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogTextView.h; sourceTree = "<group>"; };
+		0E4452751E7A303C0094470E /* BlogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogTextView.m; sourceTree = "<group>"; };
+		0E45AE371E7BBC8000B4F73F /* CustomEmojView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmojView.h; sourceTree = "<group>"; };
+		0E45AE381E7BBC8000B4F73F /* CustomEmojView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmojView.m; sourceTree = "<group>"; };
+		0E45AE3A1E7BBF3700B4F73F /* BlogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlogTool.h; path = ../Blog/Model/BlogTool.h; sourceTree = "<group>"; };
+		0E45AE3B1E7BBF3700B4F73F /* BlogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlogTool.m; path = ../Blog/Model/BlogTool.m; sourceTree = "<group>"; };
+		0E5F856C1E81202A003F1D8F /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
+		0E5F856D1E81202A003F1D8F /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
+		0E8D5EED1E80B0B500302A6C /* KeyboardEmotionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmotionBtn.h; sourceTree = "<group>"; };
+		0E8D5EEE1E80B0B500302A6C /* KeyboardEmotionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmotionBtn.m; sourceTree = "<group>"; };
+		0EA64A8B1E80BCA400A835A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0EA85A4C1E7A6A01002E39BE /* ComposeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeTool.h; sourceTree = "<group>"; };
+		0EA85A4D1E7A6A01002E39BE /* ComposeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeTool.m; sourceTree = "<group>"; };
+		0EFEB9001E7FAF560058B05C /* EmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionListView.h; sourceTree = "<group>"; };
+		0EFEB9011E7FAF560058B05C /* EmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionListView.m; sourceTree = "<group>"; };
+		0EFEB9031E7FAF630058B05C /* SelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedView.h; sourceTree = "<group>"; };
+		0EFEB9041E7FAF630058B05C /* SelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedView.m; sourceTree = "<group>"; };
+		0EFEB9061E7FB26F0058B05C /* EmotionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionBtn.h; sourceTree = "<group>"; };
+		0EFEB9071E7FB26F0058B05C /* EmotionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionBtn.m; sourceTree = "<group>"; };
+		0EFEBACD1E7FBF590058B05C /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmotionIcons; sourceTree = "<group>"; };
+		0EFEBACF1E7FC2BC0058B05C /* EmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionModel.h; sourceTree = "<group>"; };
+		0EFEBAD01E7FC2BC0058B05C /* EmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionModel.m; sourceTree = "<group>"; };
+		0EFEBAD31E7FC3870058B05C /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		0EFEBAD41E7FC3870058B05C /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		0EFEBAD51E7FC3870058B05C /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		0EFEBAD61E7FC3870058B05C /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		0EFEBAD71E7FC3870058B05C /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		0EFEBAD81E7FC3870058B05C /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		0EFEBAD91E7FC3870058B05C /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		0EFEBADA1E7FC3870058B05C /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		0EFEBADB1E7FC3870058B05C /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		0EFEBADC1E7FC3870058B05C /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		0EFEBADD1E7FC3870058B05C /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		0EFEBADE1E7FC3870058B05C /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		0EFEBADF1E7FC3870058B05C /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		0EFEBAE01E7FC3870058B05C /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		0EFEBAE11E7FC3870058B05C /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		0EFEBAE21E7FC3870058B05C /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		0EFEBAE31E7FC3870058B05C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		0EFEBAE41E7FC3870058B05C /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		0EFEBAE51E7FC3870058B05C /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		0EFEBAE61E7FC3870058B05C /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		0EFEBAE71E7FC3870058B05C /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		0EFEBAF21E7FC6470058B05C /* EmotionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionScrollView.h; sourceTree = "<group>"; };
+		0EFEBAF31E7FC6470058B05C /* EmotionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionScrollView.m; sourceTree = "<group>"; };
+		0EFEBAF51E7FD2610058B05C /* EmotionPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionPageView.h; sourceTree = "<group>"; };
+		0EFEBAF61E7FD2610058B05C /* EmotionPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionPageView.m; sourceTree = "<group>"; };
+		0EFEBAF81E7FD8E90058B05C /* NSString+Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Code.h"; path = "../Blog/Model/NSString+Code.h"; sourceTree = "<group>"; };
+		0EFEBAF91E7FD8E90058B05C /* NSString+Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Code.m"; path = "../Blog/Model/NSString+Code.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4452301E7A26980094470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4452491E7A26980094470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4452541E7A26980094470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E082EB61E7FA878008678D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBACD1E7FBF590058B05C /* EmotionIcons */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0E44522A1E7A26980094470E = {
+			isa = PBXGroup;
+			children = (
+				0E4452351E7A26980094470E /* CustomBlogKeyBoard */,
+				0E44524F1E7A26980094470E /* CustomBlogKeyBoardTests */,
+				0E44525A1E7A26980094470E /* CustomBlogKeyBoardUITests */,
+				0E4452341E7A26980094470E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E4452341E7A26980094470E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4452331E7A26980094470E /* CustomBlogKeyBoard.app */,
+				0E44524C1E7A26980094470E /* CustomBlogKeyBoardTests.xctest */,
+				0E4452571E7A26980094470E /* CustomBlogKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E4452351E7A26980094470E /* CustomBlogKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBAD21E7FC3870058B05C /* MJExtension */,
+				0E4452691E7A26FE0094470E /* Class */,
+				0E4452421E7A26980094470E /* Assets.xcassets */,
+				0E082EB61E7FA878008678D1 /* Resource */,
+				0E44523F1E7A26980094470E /* Main.storyboard */,
+				0E4452441E7A26980094470E /* LaunchScreen.storyboard */,
+				0EA64A8B1E80BCA400A835A0 /* PrefixHeader.pch */,
+				0E4452471E7A26980094470E /* Info.plist */,
+				0E4452361E7A26980094470E /* Supporting Files */,
+			);
+			path = CustomBlogKeyBoard;
+			sourceTree = "<group>";
+		};
+		0E4452361E7A26980094470E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E4452371E7A26980094470E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E44524F1E7A26980094470E /* CustomBlogKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4452501E7A26980094470E /* CustomBlogKeyBoardTests.m */,
+				0E4452521E7A26980094470E /* Info.plist */,
+			);
+			path = CustomBlogKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		0E44525A1E7A26980094470E /* CustomBlogKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E44525B1E7A26980094470E /* CustomBlogKeyBoardUITests.m */,
+				0E44525D1E7A26980094470E /* Info.plist */,
+			);
+			path = CustomBlogKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		0E4452691E7A26FE0094470E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0E44526A1E7A26FE0094470E /* AppDelegate */,
+				0E44526B1E7A26FE0094470E /* Blog */,
+				0E44526F1E7A26FE0094470E /* Other */,
+				0E4452701E7A26FE0094470E /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0E44526A1E7A26FE0094470E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E4452391E7A26980094470E /* AppDelegate.h */,
+				0E44523A1E7A26980094470E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0E44526B1E7A26FE0094470E /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				0E44526C1E7A26FE0094470E /* Controller */,
+				0E44526D1E7A26FE0094470E /* Model */,
+				0E44526E1E7A26FE0094470E /* View */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		0E44526C1E7A26FE0094470E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E44523C1E7A26980094470E /* ViewController.h */,
+				0E44523D1E7A26980094470E /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E44526D1E7A26FE0094470E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBACF1E7FC2BC0058B05C /* EmotionModel.h */,
+				0EFEBAD01E7FC2BC0058B05C /* EmotionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E44526E1E7A26FE0094470E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E4452711E7A2A4A0094470E /* TitleViewLabel.h */,
+				0E4452721E7A2A4A0094470E /* TitleViewLabel.m */,
+				0E4452741E7A303C0094470E /* BlogTextView.h */,
+				0E4452751E7A303C0094470E /* BlogTextView.m */,
+				0EA85A4C1E7A6A01002E39BE /* ComposeTool.h */,
+				0EA85A4D1E7A6A01002E39BE /* ComposeTool.m */,
+				0E45AE371E7BBC8000B4F73F /* CustomEmojView.h */,
+				0E45AE381E7BBC8000B4F73F /* CustomEmojView.m */,
+				0EFEB9001E7FAF560058B05C /* EmotionListView.h */,
+				0EFEB9011E7FAF560058B05C /* EmotionListView.m */,
+				0EFEB9031E7FAF630058B05C /* SelectedView.h */,
+				0EFEB9041E7FAF630058B05C /* SelectedView.m */,
+				0EFEB9061E7FB26F0058B05C /* EmotionBtn.h */,
+				0EFEB9071E7FB26F0058B05C /* EmotionBtn.m */,
+				0EFEBAF21E7FC6470058B05C /* EmotionScrollView.h */,
+				0EFEBAF31E7FC6470058B05C /* EmotionScrollView.m */,
+				0EFEBAF51E7FD2610058B05C /* EmotionPageView.h */,
+				0EFEBAF61E7FD2610058B05C /* EmotionPageView.m */,
+				0E8D5EED1E80B0B500302A6C /* KeyboardEmotionBtn.h */,
+				0E8D5EEE1E80B0B500302A6C /* KeyboardEmotionBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E44526F1E7A26FE0094470E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBAF81E7FD8E90058B05C /* NSString+Code.h */,
+				0EFEBAF91E7FD8E90058B05C /* NSString+Code.m */,
+				0E5F856C1E81202A003F1D8F /* UITextView+Extension.h */,
+				0E5F856D1E81202A003F1D8F /* UITextView+Extension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0E4452701E7A26FE0094470E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0E45AE3A1E7BBF3700B4F73F /* BlogTool.h */,
+				0E45AE3B1E7BBF3700B4F73F /* BlogTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0EFEBAD21E7FC3870058B05C /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBAD31E7FC3870058B05C /* MJExtension.h */,
+				0EFEBAD41E7FC3870058B05C /* MJExtensionConst.h */,
+				0EFEBAD51E7FC3870058B05C /* MJExtensionConst.m */,
+				0EFEBAD61E7FC3870058B05C /* MJFoundation.h */,
+				0EFEBAD71E7FC3870058B05C /* MJFoundation.m */,
+				0EFEBAD81E7FC3870058B05C /* MJProperty.h */,
+				0EFEBAD91E7FC3870058B05C /* MJProperty.m */,
+				0EFEBADA1E7FC3870058B05C /* MJPropertyKey.h */,
+				0EFEBADB1E7FC3870058B05C /* MJPropertyKey.m */,
+				0EFEBADC1E7FC3870058B05C /* MJPropertyType.h */,
+				0EFEBADD1E7FC3870058B05C /* MJPropertyType.m */,
+				0EFEBADE1E7FC3870058B05C /* NSObject+MJClass.h */,
+				0EFEBADF1E7FC3870058B05C /* NSObject+MJClass.m */,
+				0EFEBAE01E7FC3870058B05C /* NSObject+MJCoding.h */,
+				0EFEBAE11E7FC3870058B05C /* NSObject+MJCoding.m */,
+				0EFEBAE21E7FC3870058B05C /* NSObject+MJKeyValue.h */,
+				0EFEBAE31E7FC3870058B05C /* NSObject+MJKeyValue.m */,
+				0EFEBAE41E7FC3870058B05C /* NSObject+MJProperty.h */,
+				0EFEBAE51E7FC3870058B05C /* NSObject+MJProperty.m */,
+				0EFEBAE61E7FC3870058B05C /* NSString+MJExtension.h */,
+				0EFEBAE71E7FC3870058B05C /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E4452321E7A26980094470E /* CustomBlogKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4452601E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoard" */;
+			buildPhases = (
+				0E44522F1E7A26980094470E /* Sources */,
+				0E4452301E7A26980094470E /* Frameworks */,
+				0E4452311E7A26980094470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomBlogKeyBoard;
+			productName = CustomBlogKeyBoard;
+			productReference = 0E4452331E7A26980094470E /* CustomBlogKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E44524B1E7A26980094470E /* CustomBlogKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4452631E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoardTests" */;
+			buildPhases = (
+				0E4452481E7A26980094470E /* Sources */,
+				0E4452491E7A26980094470E /* Frameworks */,
+				0E44524A1E7A26980094470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E44524E1E7A26980094470E /* PBXTargetDependency */,
+			);
+			name = CustomBlogKeyBoardTests;
+			productName = CustomBlogKeyBoardTests;
+			productReference = 0E44524C1E7A26980094470E /* CustomBlogKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E4452561E7A26980094470E /* CustomBlogKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4452661E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoardUITests" */;
+			buildPhases = (
+				0E4452531E7A26980094470E /* Sources */,
+				0E4452541E7A26980094470E /* Frameworks */,
+				0E4452551E7A26980094470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E4452591E7A26980094470E /* PBXTargetDependency */,
+			);
+			name = CustomBlogKeyBoardUITests;
+			productName = CustomBlogKeyBoardUITests;
+			productReference = 0E4452571E7A26980094470E /* CustomBlogKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E44522B1E7A26980094470E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "飞翔";
+				TargetAttributes = {
+					0E4452321E7A26980094470E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = K567HT2XVM;
+						ProvisioningStyle = Automatic;
+					};
+					0E44524B1E7A26980094470E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = K567HT2XVM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E4452321E7A26980094470E;
+					};
+					0E4452561E7A26980094470E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = K567HT2XVM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E4452321E7A26980094470E;
+					};
+				};
+			};
+			buildConfigurationList = 0E44522E1E7A26980094470E /* Build configuration list for PBXProject "CustomBlogKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E44522A1E7A26980094470E;
+			productRefGroup = 0E4452341E7A26980094470E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E4452321E7A26980094470E /* CustomBlogKeyBoard */,
+				0E44524B1E7A26980094470E /* CustomBlogKeyBoardTests */,
+				0E4452561E7A26980094470E /* CustomBlogKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E4452311E7A26980094470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4452461E7A26980094470E /* LaunchScreen.storyboard in Resources */,
+				0E4452431E7A26980094470E /* Assets.xcassets in Resources */,
+				0E4452411E7A26980094470E /* Main.storyboard in Resources */,
+				0EFEBACE1E7FBF590058B05C /* EmotionIcons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E44524A1E7A26980094470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4452551E7A26980094470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E44522F1E7A26980094470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4452731E7A2A4A0094470E /* TitleViewLabel.m in Sources */,
+				0E8D5EEF1E80B0B500302A6C /* KeyboardEmotionBtn.m in Sources */,
+				0EFEBAE91E7FC3870058B05C /* MJFoundation.m in Sources */,
+				0EFEBAE81E7FC3870058B05C /* MJExtensionConst.m in Sources */,
+				0E44523E1E7A26980094470E /* ViewController.m in Sources */,
+				0E44523B1E7A26980094470E /* AppDelegate.m in Sources */,
+				0EFEB9051E7FAF630058B05C /* SelectedView.m in Sources */,
+				0E4452381E7A26980094470E /* main.m in Sources */,
+				0EFEBAD11E7FC2BC0058B05C /* EmotionModel.m in Sources */,
+				0EFEBAEF1E7FC3870058B05C /* NSObject+MJKeyValue.m in Sources */,
+				0E5F856E1E81202A003F1D8F /* UITextView+Extension.m in Sources */,
+				0EA85A4E1E7A6A01002E39BE /* ComposeTool.m in Sources */,
+				0EFEBAED1E7FC3870058B05C /* NSObject+MJClass.m in Sources */,
+				0E4452761E7A303C0094470E /* BlogTextView.m in Sources */,
+				0EFEBAF11E7FC3870058B05C /* NSString+MJExtension.m in Sources */,
+				0E45AE391E7BBC8000B4F73F /* CustomEmojView.m in Sources */,
+				0E45AE3C1E7BBF3700B4F73F /* BlogTool.m in Sources */,
+				0EFEB9021E7FAF560058B05C /* EmotionListView.m in Sources */,
+				0EFEBAEC1E7FC3870058B05C /* MJPropertyType.m in Sources */,
+				0EFEBAF41E7FC6470058B05C /* EmotionScrollView.m in Sources */,
+				0EFEBAF01E7FC3870058B05C /* NSObject+MJProperty.m in Sources */,
+				0EFEBAEE1E7FC3870058B05C /* NSObject+MJCoding.m in Sources */,
+				0EFEBAEA1E7FC3870058B05C /* MJProperty.m in Sources */,
+				0EFEBAFA1E7FD8E90058B05C /* NSString+Code.m in Sources */,
+				0EFEB9081E7FB26F0058B05C /* EmotionBtn.m in Sources */,
+				0EFEBAEB1E7FC3870058B05C /* MJPropertyKey.m in Sources */,
+				0EFEBAF71E7FD2610058B05C /* EmotionPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4452481E7A26980094470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4452511E7A26980094470E /* CustomBlogKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4452531E7A26980094470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E44525C1E7A26980094470E /* CustomBlogKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E44524E1E7A26980094470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4452321E7A26980094470E /* CustomBlogKeyBoard */;
+			targetProxy = 0E44524D1E7A26980094470E /* PBXContainerItemProxy */;
+		};
+		0E4452591E7A26980094470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4452321E7A26980094470E /* CustomBlogKeyBoard */;
+			targetProxy = 0E4452581E7A26980094470E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E44523F1E7A26980094470E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E4452401E7A26980094470E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E4452441E7A26980094470E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E4452451E7A26980094470E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E44525E1E7A26980094470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E44525F1E7A26980094470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E4452611E7A26980094470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				GCC_PREFIX_HEADER = "/Users/CQDMac/Desktop/MyOwn/MySelf/ios-exercise/CustomBlogKeyBoard/CustomBlogKeyBoard/PrefixHeader.pch";
+				INFOPLIST_FILE = CustomBlogKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4452621E7A26980094470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				GCC_PREFIX_HEADER = "/Users/CQDMac/Desktop/MyOwn/MySelf/ios-exercise/CustomBlogKeyBoard/CustomBlogKeyBoard/PrefixHeader.pch";
+				INFOPLIST_FILE = CustomBlogKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E4452641E7A26980094470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				INFOPLIST_FILE = CustomBlogKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBlogKeyBoard.app/CustomBlogKeyBoard";
+			};
+			name = Debug;
+		};
+		0E4452651E7A26980094470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				INFOPLIST_FILE = CustomBlogKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBlogKeyBoard.app/CustomBlogKeyBoard";
+			};
+			name = Release;
+		};
+		0E4452671E7A26980094470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				INFOPLIST_FILE = CustomBlogKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomBlogKeyBoard;
+			};
+			name = Debug;
+		};
+		0E4452681E7A26980094470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K567HT2XVM;
+				INFOPLIST_FILE = CustomBlogKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CustomBlogKeyBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomBlogKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E44522E1E7A26980094470E /* Build configuration list for PBXProject "CustomBlogKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E44525E1E7A26980094470E /* Debug */,
+				0E44525F1E7A26980094470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4452601E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4452611E7A26980094470E /* Debug */,
+				0E4452621E7A26980094470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4452631E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4452641E7A26980094470E /* Debug */,
+				0E4452651E7A26980094470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4452661E7A26980094470E /* Build configuration list for PBXNativeTarget "CustomBlogKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4452671E7A26980094470E /* Debug */,
+				0E4452681E7A26980094470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E44522B1E7A26980094470E /* Project object */;
+}
